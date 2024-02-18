@@ -1,0 +1,74 @@
+body{
+  font-family: arial;
+  background: #b2bec3;
+  padding:0;
+  margin: 0;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+}
+#main{
+  width: 700px;
+  margin: 20px auto;
+  background: white;
+  font-size: 18px;
+}
+#header{
+  background: #6c5ce7;
+  color: #fff;
+  padding: 15px;
+}
+
+#table-data{
+  padding: 15px;
+  min-height: 400px;
+}
+
+table tr td:first-child{
+  text-align: right;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],select{
+  width: 200px;
+  height: 25px;
+  font-size: 17px;
+  padding: 3px;
+}
+input[type="number"]{
+  width: 60px;
+}
+
+input[type="button"]{
+  background: #6c5ce7;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  padding: 5px 10px;
+  outline: 0;
+  cursor: pointer;
+}
+#response{
+  width: 70%;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 5px;
+}
+.error-msg{
+  background: #f2dedf;
+  color: #9c4150;
+  border: 1px solid #e7ced1;
+}
+.success-msg{
+  background: #e0efda;
+  color: #407a4a;
+  border: 1px solid #c6dfb2;
+}
+.process-msg{
+  background: #d9edf6;
+  color: #377084;
+  border: 1px solid #c8dce5;
+}
