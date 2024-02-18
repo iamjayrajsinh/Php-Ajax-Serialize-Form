@@ -10,11 +10,11 @@
 <body>
   <div id="main">
     <div id="header">
-      <h1>PHP & Ajax Serialize Form</h1>
+      <h1><?php  echo "PHP & Ajax Serialize Form"; ?></h1>
     </div>
 
     <div id="table-data">
-      <form id="submit_form">  
+      <form id="submit_form">
         <table width="100%" cellpadding="10px">
           <tr>
             <td width="150px"><label>Name</label></td>
@@ -27,7 +27,7 @@
           <tr>
             <td><label>Gender</label></td>
             <td>
-              <input type="radio" name="gender" value="male" /> Male  
+              <input type="radio" name="gender" value="male" /> Male
               <input type="radio" name="gender" value="female" /> Female
             </td>
           </tr>
@@ -48,8 +48,8 @@
             <td><input type="button" name="submit" id="submit" value="Submit" /></td>
           </tr>
         </table>
-      </form>  
-      <div id="response"></div>  
+      </form>
+      <div id="response"></div>
     </div>
   </div>
 
